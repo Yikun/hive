@@ -35,7 +35,7 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TrustDomainAuthenticationTest {
+public abstract class TrustDomainAuthenticationTest {
   private static final Logger LOG = LoggerFactory.getLogger(TrustDomainAuthenticationTest.class);
   private static HiveServer2 hiveserver2;
   private static HiveConf hiveConf;
